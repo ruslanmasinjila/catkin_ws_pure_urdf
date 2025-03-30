@@ -5,7 +5,7 @@
     </material>
 
     <material name="Silver">
-      <color rgba="0.753 0.753 0.753 1.0"/>
+      <color rgba="1.0 1.0 1.0 1.00"/>
     </material>
 
     <link name="link_base">
@@ -397,21 +397,21 @@
   <!-- Left Finger -->
   <link name="omx_gripper_left_finger_link">
     <inertial>
-      <origin xyz="0 0 -0.0191" rpy="0 0 0" />
+      <origin xyz="0 0 -0.023" rpy="0 0 0" />
       <mass value="0.001" />
       <inertia ixx="1.0e-06" ixy="0" ixz="0"
                iyy="1.0e-06" iyz="0"
                izz="1.0e-06" />
     </inertial>
     <visual>
-      <origin xyz="0 0 -0.0191" rpy="0 -1.5708 0" />
+      <origin xyz="0 0 -0.023" rpy="0 -1.5708 0" />
       <geometry>
         <mesh filename="package://xarm_description/meshes/lite6/visual/omx_gripper_left_finger.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="White" />
     </visual>
     <collision>
-      <origin xyz="0 0 -0.0191" rpy="0 -1.5708 0" />
+      <origin xyz="0 0 -0.023" rpy="0 -1.5708 0" />
       <geometry>
         <mesh filename="package://xarm_description/meshes/lite6/collision/omx_gripper_left_finger.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -419,7 +419,7 @@
   </link>
 
   <joint name="left_finger_joint" type="prismatic">
-    <origin xyz="0.0 0.021 0.0817" rpy="0 0 0"/>
+    <origin xyz="0.0 0.023 0.0817" rpy="0 0 0"/>
     <parent link="lite6_gripper_link" />
     <child link="omx_gripper_left_finger_link" />
     <axis xyz="0 1 0" />
@@ -431,21 +431,21 @@
   <!-- Right Finger -->
   <link name="omx_gripper_right_finger_link">
     <inertial>
-      <origin xyz="0 0 -0.0191" rpy="0 0 0" />
+      <origin xyz="0 0 -0.023" rpy="0 0 0" />
       <mass value="0.001" />
       <inertia ixx="1.0e-06" ixy="0" ixz="0"
                iyy="1.0e-06" iyz="0"
                izz="1.0e-06" />
     </inertial>
     <visual>
-      <origin xyz="0 0 -0.0191" rpy="0 -1.5708 0" />
+      <origin xyz="0 0 -0.023" rpy="0 -1.5708 0" />
       <geometry>
         <mesh filename="package://xarm_description/meshes/lite6/visual/omx_gripper_right_finger.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="White" />
     </visual>
     <collision>
-      <origin xyz="0 0 -0.0191" rpy="0 -1.5708 0" />
+      <origin xyz="0 0 -0.023" rpy="0 -1.5708 0" />
       <geometry>
         <mesh filename="package://xarm_description/meshes/lite6/collision/omx_gripper_right_finger.stl" scale="0.001 0.001 0.001"/>
       </geometry>
@@ -453,7 +453,7 @@
   </link>
 
   <joint name="right_finger_joint" type="prismatic">
-    <origin xyz="0.0 -0.021 0.0817" rpy="0 0 0"/>
+    <origin xyz="0.0 -0.023 0.0817" rpy="0 0 0"/>
     <parent link="lite6_gripper_link" />
     <child link="omx_gripper_right_finger_link" />
     <axis xyz="0 -1 0"/>
