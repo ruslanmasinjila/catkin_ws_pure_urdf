@@ -13,9 +13,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
+  "lite6_moveit_config/catkin_generated/package.cmake"
   "xarm_description/catkin_generated/ordered_paths.cmake"
   "xarm_description/catkin_generated/package.cmake"
   "/home/ruslan/catkin_ws/src/CMakeLists.txt"
+  "/home/ruslan/catkin_ws/src/lite6_moveit_config/CMakeLists.txt"
+  "/home/ruslan/catkin_ws/src/lite6_moveit_config/package.xml"
   "/home/ruslan/catkin_ws/src/xarm_description/CMakeLists.txt"
   "/home/ruslan/catkin_ws/src/xarm_description/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
@@ -191,6 +194,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lite6_moveit_config/CMakeFiles/CMakeDirectoryInformation.cmake"
   "xarm_description/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -205,6 +209,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "lite6_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "xarm_description/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
   "xarm_description/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "xarm_description/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"

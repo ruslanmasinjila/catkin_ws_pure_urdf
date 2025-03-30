@@ -1,2 +1,2 @@
-xarm_description
+lite6_moveit_config:xarm_description
 -DCATKIN_DEVEL_PREFIX=/home/ruslan/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ruslan/catkin_ws/install -G Unix Makefiles
