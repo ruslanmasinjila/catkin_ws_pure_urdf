@@ -373,7 +373,7 @@
     </collision>
 
     <visual>
-      <origin xyz="0.21 0 -0.1491" rpy="0 -1.5708 0" />
+      <origin xyz="0.21 0 -0.1500" rpy="0 -1.5708 0" />
       <geometry>
         <mesh filename="package://xarm_description/meshes/lite6/visual/omx_gripper_base.stl" />
       </geometry>
@@ -381,7 +381,7 @@
     </visual>
 
     <collision>
-      <origin xyz="0.21 0 -0.1491" rpy="0 -1.5708 0" />
+      <origin xyz="0.21 0 -0.1500" rpy="0 -1.5708 0" />
       <geometry>
         <mesh filename="package://xarm_description/meshes/lite6/collision/omx_gripper_base.stl" />
       </geometry>
