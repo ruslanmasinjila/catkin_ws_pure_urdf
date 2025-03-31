@@ -177,7 +177,7 @@
     <joint name="joint3" type="revolute">
       <origin
         xyz="0.2 0 0"
-        rpy="-3.1416 0 1.5708" />
+        rpy="-3.1416 0 0" />
       <parent
         link="link2" />
       <child
@@ -392,6 +392,36 @@
     <origin xyz="0 0 0" rpy="0 0 0" />
     <parent link="link6"/>
     <child link="lite6_gripper_link"/>
+  </joint>
+  
+  <!-- OMX Gripper Joint -->
+  <link name="omx_gripper_joint">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0"
+               iyy="1e-6" iyz="0"
+               izz="1e-6"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="White"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="omx_gripper_fixed_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="lite6_gripper_link"/>
+    <child link="omx_gripper_joint"/>
   </joint>
 
   <!-- Left Finger -->
